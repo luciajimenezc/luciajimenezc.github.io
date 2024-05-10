@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Mi historia</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-image="./img/bandera.jpg">
+				<h1>Mi historia</h1>
+				<P>Lorem ipsum</P>
+			<img src="./img/fondo.jpg" alt="Juan y medio">
+			</section>
+			<section>
+				<h2>Vídeo</h2>
+				<video data-autoplay src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"></video>
+			</section>
+			<section>
+				<h3>Audio</h3>
+				<audio data-autoplay src="https://download.samplelib.com/mp3/sample-3s.mp3"></audio>
+			</section>
+			<section>Slide 4</section>
+			<section>Slide 5</section>
+			<section>
+			<section>Slide 6A</section>
+			<section>Slide 6B</section>
+			<section>Slide 6C</section>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			autoPlayMedia: true,
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
