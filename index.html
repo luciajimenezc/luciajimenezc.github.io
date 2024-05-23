@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>Mi historia</title>
+	<title>Free Palestina</title>
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
@@ -13,31 +13,102 @@
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+	<style>
+        /* Estilos personalizados */
+        h1 {
+            font-size: 2em;
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        .reveal .slides section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .reveal .slides section img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            margin: 0 auto;
+        }
+
+		.scrollable-section {
+            height: 300px; /* Altura fija para la sección */
+            overflow-y: scroll; /* Desplazamiento vertical */
+        }
+
+		.custom-title {
+            margin-top: -200px; /* Ajusta este valor según sea necesario */
+            text-align: center;
+        }
+
+		.small-text {
+            font-size: 0.8em; /* Ajusta este valor según sea necesario */
+        }
+    </style>
 </head>
 
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section data-background-image="./img/bandera.jpg">
-				<h1>Mi historia</h1>
-				<P>Yo me llamo María</P>
-			<img src="./img/fondo.jpg" alt="Juan y medio">
+			<section data-background-video="./video/bandera.mp4" data-background-video-loop="true" data-background-video-muted="true">
+				<h2>¿Qué ocurre en Palestina?</h1>
+			<img src="./img/pexels-mohammed-abubakr-201794886-19028556.jpg" alt="Free Palestina">
 			</section>
-			<section>
-				<h2>Vídeo</h2>
-				<video data-autoplay src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"></video>
+
+			<section data-background-video="./video/bandera.mp4">
+                <table border="1" cellpadding="10" cellspacing="0" align="center">
+                    <tr>
+                        <td>
+                            <h2 class="custom-title">El Acuerdo Haavara</h2>
+							<div class="scrollable-section">
+
+                                <p>Parte del acuerdo Haavara, consistía en que la Organización Mundial Sionista retirase el boicot a los nazis y a cambio tendrían su "tierra prometida" en Palestina, colaboraron con Hitler para sacar a judíos ricos de Alemania. A cambio vendieron a los judíos pobres, que en su mayoría eran comunistas.</p>
+                                <p>“Cuando la Organización Sionista, en contra del sentir mayoritario del pueblo judío, decidió pactar con Hitler el mantenimiento de las propiedades de los judíos alemanes a cambio de vender mercancías alemanas, de inundar con ellas el mercado palestino y de este modo burlar el boicot de los productos alemanes, esta decisión provocó escaso malestar en la patria de los judíos, o al menos entre su aristocracia, entre los llamados kibbuzniks. Cuando se les reprochaba que estaban negociando con el enemigo de los judíos y de la clase trabajadora, estos palestinos solían replicar que la Unión Soviética tampoco había interrumpido sus relaciones comerciales con Alemania.</p>
+                                <p>Hannah Arendt en El valor de pensar página 70</p>
+							</div>
+                        </td>
+                    </tr>
+                </table>
 			</section>
+			
 			<section>
+				<section>
+					<p class="small-text">Empezamos así...</p>
+					<img src="./img/stage1.png" alt="Stage1">
+				</section>
+				<section>
+					<p class="small-text">Nos comieron terreno...</p>
+					<img src="./img/stage2.png" alt="Stage2">
+				</section>
+				<section>
+					<p class="small-text">Se pasaron de verga...</p>
+					<img src="./img/stage3.png" alt="Stage3">
+				</section>
+				<section>
+					<p class="small-text">Literalmente nos matan...</p>
+					<img src="./img/stage4.png" alt="Stage4">
+				</section>
+			
+			</section>
+
+			<section data-background-image="./img/boy.png">
+				
 				<h3>Audio</h3>
-				<audio data-autoplay src="https://download.samplelib.com/mp3/sample-3s.mp3"></audio>
+				<audio data-autoplay src="./audio/creado.mp3"></audio>
 			</section>
-			<section>Slide 4</section>
-			<section>Slide 5</section>
-			<section>
-			<section>Slide 6A</section>
-			<section>Slide 6B</section>
-			<section>Slide 6C</section>
+			<section><h2>Vídeo</h2>
+				<video data-autoplay src="./video/videopa.mp4"></video>
 			</section>
+			<section data-background-image="./img/imagen3.jpg">
+				Slide 5
+			</section>
+
 		</div>
 	</div>
 
